@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <H1 id="first">Hii</H1>
+    <h2>Your Response has been Recorded Sucessfully</h2>
+    <h3>Click <a href="form.html">here</a> for Register another Response</h3>
+    <script >
+        var a=document.getElementById("first")
+        var b=localStorage.getItem("first");
+
+     a.innerText="Hello "+b
+     a.style.color="red";
+    </script>
+</body>
+</html>
